@@ -119,22 +119,6 @@ def get_type(aloi):
 
 	return sum([i**2 for i in cards.values()])
 
-# class Hand:
-
-# 	def __init__(self, astr):
-# 		self.cards = convert_to_aloi(astr)
-# 		self.type = get_type(self.cards) #25 for 5 of a kind, 17 for 4 of a kind, 13 for full house, ... 5 for high card,
-# 										 # you can use the sum of the squares of # of each card to get a unique (ordered) solution
-
-# 	def __lt__(self, other):
-# 		if self.type == other.type:
-# 			for h1, h2 in zip(self.cards, other.cards):
-# 				if h1 < h2:
-# 					return True
-# 				elif h1 > h2:
-# 					return False
-# 		return (self.type < other.type)
-
 #=========================================================
 
 #runtime
